@@ -1,0 +1,25 @@
+{
+  "name": "@tabcat/aes-gcm-crypter",
+  "version": "1.0.0",
+  "description": "encrypt and decrypt aes-gcm ciphers",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabcat/aes-gcm-crypter.git"
+  },
+  "keywords": [
+    "crypter"
+  ],
+  "author": "andersb@tuta.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tabcat/aes-gcm-crypter/issues"
+  },
+  "homepage": "https://github.com/tabcat/aes-gcm-crypter#readme",
+  "dependencies": {
+    "@tabcat/webcrypto-ponyfill": "^1.0.0"
+  }
+}
