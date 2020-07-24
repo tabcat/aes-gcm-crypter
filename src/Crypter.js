@@ -35,7 +35,7 @@ class Crypter {
     return webcrypto.get().subtle.generateKey(
       {
         name: 'AES-GCM',
-        length: length // can be  128, 192, or 256
+        length // can be  128, 192, or 256
       },
       true, // exportable
       ['encrypt', 'decrypt']
