@@ -28,7 +28,7 @@ class Crypter {
 
   /**
   * Generates a random aes-gcm key.
-  * @param {ArrayBuffer} rawKey The raw aes key. Output from exportKey.
+  * @param {Number} length The length of the aes-gcm key.
   * @return {CryptoKey}
   */
   static async generateKey (length = 128) {
