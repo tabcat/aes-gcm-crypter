@@ -2,7 +2,7 @@
 'use strict'
 const webcrypto = require('@tabcat/webcrypto-ponyfill')
 const expectDefined = (param) => new Error(`expected ${param} to be defined`)
-const invalidCryptoKey = () new Error('invalid CryptoKey given')
+const invalidCryptoKey = () => new Error('invalid CryptoKey given')
 const invalidIVLen = () => new Error('iv was invalid length')
 
 class Crypter {
