@@ -72,13 +72,15 @@ class Crypter {
     return webcrypto.get().getRandomValues(new Uint8Array(12))
   }
 
+  generateIV () { return Crypter.generateIV() }
+
   /**
   * Encrypts the bytes using the crypter instance cryptoKey.
   * @param {ArrayBuffer} bytes The bytes to be encrypted.
   * @param {Uint8Array} [iv] The initialization vector to use.
   * @return {object} An object including the encrypted bytes and initialization vector
   */
-  async encrypt (bytes, iv = Crypter.generateIV()) {
+  async encrypt (bytes, iv = this.generateIV()) {
     if (!bytes) throw expectDefined('bytes')
     if (!iv) throw expectDefined('iv')
     iv = Uint8Array.from(iv)
