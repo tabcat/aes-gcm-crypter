@@ -24,5 +24,8 @@
   "homepage": "https://github.com/tabcat/aes-gcm-crypter#readme",
   "dependencies": {
     "@tabcat/webcrypto-ponyfill": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
   }
 }
