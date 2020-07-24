@@ -1,6 +1,6 @@
 {
   "name": "@tabcat/aes-gcm-crypter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "encrypt and decrypt aes-gcm ciphers",
   "main": "src/index.js",
   "files": [
