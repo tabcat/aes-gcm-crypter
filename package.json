@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/tabcat/aes-gcm-crypter#readme",
   "dependencies": {
-    "@tabcat/webcrypto-ponyfill": "^1.0.0"
+    "@tabcat/webcrypto-ponyfill": "^1.0.1"
   }
 }
