@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "encrypt and decrypt aes-gcm ciphers",
   "main": "src/index.js",
+  "files": [
+    "/src"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
